@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&family=Send+Flowers&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: lightpink;
+    padding: 2px;
+    height: 120px;
+    width: 100%;
+    align-content: space-around;
+}
+
+.titulo {
+    display: flex;
+    font-family: 'Send Flowers', cursive;
+    color: darkblue;
+    font-size: 25px;
+    justify-content: center;
+    padding: 2px;
+    height: 60px;
+    align-content: center;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: indigo;
+    padding: 2px;
+    align-items: flex-end;
+    height: 38px;
+}
+
+nav > .home {}
+
+nav > .about {}
+
+nav > .contact {}
+
+
+
+
+
+.aside-one {}
+
+.chapters {
+    color: aliceblue;
+    padding-left: 18px;
+    padding-top: 8px;
+}
+
+ul {
+    color: lightgoldenrodyellow;
+    list-style-type: upper-roman;
+
+}
+
+ui {}
+
+.aside-two {
+    font-size: 0.7em;
+    display: flex;
+    padding-left: 4px;
+    padding-bottom: 6px;
+}
+
+.info {
+    display: flex;
+    font-size: 0.7em;
+    padding-left: 4px;
+}
+
+.main-content {
+    padding: 7px;
+    background-color: darkgrey;
+}
+
+h1 {
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
+
+.titulocapitulo {
+    color: aquamarine;
+    display: flex;
+    justify-content: right;
+    margin-right: 6px;
+}
+
+p {
+    font-size: 0.7em;
+    color: lightgoldenrodyellow;
+}
+
+footer {
+    background-color: black;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 0.5em;
+    color: white;
+}
+
+.footer-texto1 {
+    font-size: 0.5em;
+    color: white;
+}
+
+.footer-texto2 {
+    font-size: 0.5em;
+    color: white;
+    text-align: right;
+    padding-left: 4px;
+}
