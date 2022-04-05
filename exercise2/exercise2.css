@@ -39,7 +39,7 @@ header {
     align-content: center;
 }
 
-header > nav {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -49,11 +49,11 @@ header > nav {
     height: 38px;
 }
 
-nav > .home {}
+.home {}
 
-nav > .about {}
+.about {}
 
-nav > .contact {}
+.contact {}
 
 
 
@@ -135,4 +135,28 @@ h3 {
     color: white;
     text-align: right;
     padding-left: 4px;
+}
+
+
+
+@media (min-width: 800px){
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        justify-content: space-between;
+    }
+    
+    .titulo {
+        font-size: 40px;
+        display: flex;
+        justify-content: left;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        justify-content: right;
+    }
 }
